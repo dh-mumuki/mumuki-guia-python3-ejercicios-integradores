@@ -1,19 +1,23 @@
 class Test_partir_string(unittest.TestCase):
 
+  #...content...#
   def solucion(self, valor):
     return valor.split(',')
-    
+  
+  #...test...#
   def test_function_defined(self):
     
     try:
         partir_string('')
     except NameError:
         self.fail('La función partir_string no está definida')
-    
+  
+  #...test...#  
   def test_valores(self):
     self.probar_valores('68,47,24,1995')
     self.probar_valores('321,654,3,612,85')
     
+  
   def probar_valores(self, valor):
     valor_obtenido = partir_string(valor)
     valor_solucion = self.solucion(valor)
