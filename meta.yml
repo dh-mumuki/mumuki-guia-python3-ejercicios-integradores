@@ -1,10 +1,10 @@
 ---
 name: Ejercicios integradores
 locale: es
-type: practice
+type: learning
 beta: false
 teacher_info: ''
-language: python3
+language: text
 id_format: "%05d"
 order:
 - 1
