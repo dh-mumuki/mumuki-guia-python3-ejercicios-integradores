@@ -1,0 +1,1 @@
+En esta guia vas a encontrar ejercicios de práctica que integran todo lo visto en los módulos anteriores y te preparan para resolver problemas utilizando programación.
